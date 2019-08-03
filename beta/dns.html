@@ -1,0 +1,20 @@
+<html>
+    <title> Ip Display version 0.5 beta </title>
+<body>
+    <script>
+    function server(__data)
+     {
+    for (var key in __data)
+    {
+    document.write(key+'  :  '+__data[key]+"<br>");
+    }
+    }
+         
+    </script>
+    <script>
+    </script>
+    <script type="text/javascript" src="edns.ip-api.com/json/?callback=server">
+    </script>
+</body>
+
+</html>
